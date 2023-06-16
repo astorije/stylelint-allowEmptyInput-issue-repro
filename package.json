@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "pass": "stylelint \"**/*.css\" --allow-empty-input",
+    "fail": "stylelint \"**/*.css\""
+  },
+  "devDependencies": {
+    "stylelint": "15.7.0",
+    "stylelint-config-standard": "33.0.0"
+  }
+}
